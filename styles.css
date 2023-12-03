@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 div {
@@ -53,23 +54,77 @@ text-decoration: none;
 color:aqua;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------- */
+/* ---------          hero section   ----------------------*/
 
 /* This is the container for the hero text and image */
 .herocontainer {
-    padding: 0px 300px 0px 300px;
+    padding: 0px 300px 40px 300px;
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
+
+/* ------------------------ */
 
 .herotext {
-    flex: 1;
-}
-.heroimg{
-    flex: 1;
+   
 }
 
-.heroimg img {
-    width: 100%;
-    height: 300px;
+.herotext h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
 }
+
+.herotext p {
+    font-size: 18px;
+    color:#E5E7EB;
+    text-align: center;
+}
+
+
+.heroimg img {
+    width: auto;
+    height: 300px;
+
+
+}
+
+/* ----------------- info section ---------------------------------*/
+
+/* container for info section */
+
+.infocontainer {
+color:#1F2937;
+display:flex;
+justify-content: center;
+column-gap: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.infocontainer h1 {
+font-size: 36px;
+font-weight: bolder;
+
+}
+
+/* -------------------- */
+
+.infobox {
+display: inline-flexbox;
+width:200px;
+height:auto;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.infobox img {
+    width:200px;
+    height:auto; 
+    border: 3px solid #3882F6;
+    padding: 10px;
+    border-radius: 15%;
+}
+
