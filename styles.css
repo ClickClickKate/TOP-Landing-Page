@@ -1,2 +1,68 @@
 /* Styles */
 
+
+
+/* This is the container to hold the hero text image and nav bar*/
+.herocontainer {
+background-color:#1f2937;
+border: 1px solid #000000;
+color: #ffffff;
+} 
+
+.herocontainer .hero h1{
+font-size: 48px;
+font-weight: 900;
+color:F9FAF8;
+}
+
+.herocontainer .navbar h1{
+    font-size: 24px;
+    color: F9FAF8;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* This is the container for the nav bar and logo - FLEX*/
+.navbar {
+    border: 1px solid #000000;
+    display: flex;
+    margin:10px;
+    padding: 10px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+
+}
+
+
+.navlinks{
+display: flex;
+list-style: none;
+font-size: 18px;
+}
+
+/* Navigation items */
+.navitem a{
+display:inline-block;
+color: #E5E7EB;
+padding: 10px;
+text-decoration: none;
+}
+
+.navitem:hover a{
+    color:aqua;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* This is the container for the hero text and image */
+.hero {
+border: 1px solid #000000;
+display: flex;
+margin:10px;
+padding: 10px;
+height: 150px;
+}
