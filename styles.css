@@ -60,34 +60,48 @@ color:aqua;
 .herocontainer {
     padding: 0px 300px 40px 300px;
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    gap: 50px;
+   justify-content: center;
 }
 
 /* ------------------------ */
 
 .herotext {
-   
+text-align: left;
 }
 
 .herotext h1 {
     font-size: 48px;
     font-weight: bolder;
-    text-align: center;
+
 }
 
 .herotext p {
     font-size: 18px;
     color:#E5E7EB;
-    text-align: center;
+
 }
 
 
 .heroimg img {
     width: auto;
     height: 300px;
+}
 
+.button {
+background-color: #3882F6;
+border:none;
+color: #E5E7EB;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size:20px ;
+border-radius: 10px;
+}
 
+.button:hover {
+    background-color:aqua;
 }
 
 /* ----------------- info section ---------------------------------*/
@@ -126,5 +140,26 @@ text-align: center;
     border: 3px solid #3882F6;
     padding: 10px;
     border-radius: 15%;
+}
+
+/* ------------ citation section ------------------ */
+
+.quote {
+display: flex;
+background-color: #e5E7EB;
+font-weight: lighter;
+font-size: 36px;
+color:#1f2937;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 50px 400px 50px 400px;
+margin:0px;
+}
+
+.quote h1 {
+font-size: 30px ;
+text-align: right;
+
 }
 
