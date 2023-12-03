@@ -142,7 +142,7 @@ text-align: center;
     border-radius: 15%;
 }
 
-/* ------------ citation section ------------------ */
+/* ------------ quote section ------------------ */
 
 .quote {
 display: flex;
@@ -160,6 +160,56 @@ margin:0px;
 .quote h1 {
 font-size: 30px ;
 text-align: right;
+}
+
+/*  ------------ CTA Section ------------------- */
+
+.ctacontainer {
+background-color: #FFFFFF;
 
 }
 
+.ctabox {
+background-color: #3882F6;
+margin: 50px 300px;
+color: #E5E7EB;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 50px;
+border-radius: 10PX;
+gap: 60px;
+align-items: center;
+}
+
+.ctatext {
+text-align: left;
+}
+
+.ctatext h1{ 
+padding: 0px;
+margin:0px;
+font-size: 22px;
+}
+
+.ctatext p {
+padding-top: 10px;
+margin: 0px;
+}
+
+.ctabutton {
+color: #FFFFFF;
+background-color: #3882F6;
+border:1px solid #ffffff;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size:20px ;
+border-radius: 10px;
+border-color: #ffffff;
+}
+
+.ctabutton:hover {
+background-color: #1F2937;
+}
