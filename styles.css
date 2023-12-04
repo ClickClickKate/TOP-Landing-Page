@@ -59,37 +59,34 @@ color:aqua;
 /* This is the container for the hero text and image */
 .herocontainer {
 display:flex;
-justify-content: center;
-justify-items: center;
 gap: 10px;
-padding: 0px 300px 50px 300px;
+padding: 0px 400px 50px 400px;
 }
 
 /* ------------------------ */
 
 .herotext {
-text-align: left;
-justify-content: center;
 flex-direction: column;
 flex:1;
+
 }
 
 .herotext h1 {
-    font-size: 48px;
-    font-weight: bolder;
+font-size: 48px;
+font-weight: bolder;
 
 }
 
 .herotext p {
-    font-size: 18px;
-    color:#E5E7EB;
+font-size: 18px;
+color:#E5E7EB;
 
 }
 
 
 .heroimg {
- width: auto;
- height: 300px;
+ text-align: center;
+
 }
 
 .button {
@@ -170,7 +167,7 @@ text-align: right;
 
 .ctacontainer {
 background-color: #FFFFFF;
-
+margin:100px 0px;
 }
 
 .ctabox {
@@ -217,3 +214,15 @@ border-color: #ffffff;
 .ctabutton:hover {
 background-color: aqua;
 }
+
+
+/* ------ Footer ------- */
+
+footer {
+background-color: #1F2937;
+color: #E5E7EB;
+height: 80px;
+width: 100%;
+text-align: center;
+line-height: 80px;
+}   
