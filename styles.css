@@ -85,8 +85,9 @@ color:#E5E7EB;
 
 
 .heroimg {
- text-align: center;
-
+text-align: center;
+height: 400px;
+width: auto;
 }
 
 .button {
@@ -123,6 +124,12 @@ font-size: 36px;
 font-weight: bolder;
 
 }
+
+.infocontainer h2 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #3882F6;
+    }
 
 /* -------------------- */
 
