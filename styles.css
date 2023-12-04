@@ -58,16 +58,20 @@ color:aqua;
 
 /* This is the container for the hero text and image */
 .herocontainer {
-    padding: 0px 300px 40px 300px;
-    display: flex;
-    gap: 50px;
-   justify-content: center;
+display:flex;
+justify-content: center;
+justify-items: center;
+gap: 10px;
+padding: 0px 300px 50px 300px;
 }
 
 /* ------------------------ */
 
 .herotext {
 text-align: left;
+justify-content: center;
+flex-direction: column;
+flex:1;
 }
 
 .herotext h1 {
@@ -83,9 +87,9 @@ text-align: left;
 }
 
 
-.heroimg img {
-    width: auto;
-    height: 300px;
+.heroimg {
+ width: auto;
+ height: 300px;
 }
 
 .button {
@@ -126,7 +130,7 @@ font-weight: bolder;
 /* -------------------- */
 
 .infobox {
-display: inline-flexbox;
+
 width:200px;
 height:auto;
 justify-content: center;
@@ -211,5 +215,5 @@ border-color: #ffffff;
 }
 
 .ctabutton:hover {
-background-color: #1F2937;
+background-color: aqua;
 }
